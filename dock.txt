@@ -1,0 +1,16 @@
+# scoring function and search settings
+scoring_function chemplp
+search_speed speed1
+# input
+protein_file rec.mol2
+ligand_file lig.mol2
+# output
+output_dir results
+# write single mol2 files (e.g. for RMSD calculation)
+write_multi_mol2 0
+# binding site definition
+bindingsite_center 22.7142 -25.2627 -3.283
+bindingsite_radius 3.75624
+# cluster algorithm
+cluster_structures 10
+cluster_rmsd 2.0
